@@ -18,7 +18,7 @@ class Bank:
 
     def search_account(self, ac_no):
         for account in self.accounts:
-            if ac_no in self.accounts:
+            if ac_no in account:
                 return account
         else:
             return None
